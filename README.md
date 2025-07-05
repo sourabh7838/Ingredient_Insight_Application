@@ -1,17 +1,17 @@
-# 🔍 Ingredient Insight App
+# Ingredient Insight App
 
 A comprehensive Python application that analyzes food and personal care product images to identify ingredients and assess health risks using AI-powered computer vision and integrated health databases.
 
-## 🎯 Features
+## Features
 
-- **🔍 AI-Powered Image Analysis**: Uses Google Cloud Vision AI for OCR and product recognition
-- **🧪 Ingredient Safety Analysis**: Integrates EWG (Environmental Working Group) database for toxic chemical identification
-- **🤧 Allergen Detection**: Identifies common allergens and provides personalized alerts
-- **📊 Risk Assessment**: Comprehensive health risk scoring with actionable recommendations
-- **📈 Analytics Dashboard**: Track your product analysis history and risk trends
-- **🌐 Web Interface**: Beautiful, user-friendly Streamlit interface
+- ** AI-Powered Image Analysis**: Uses Google Cloud Vision AI for OCR and product recognition
+- ** Ingredient Safety Analysis**: Integrates EWG (Environmental Working Group) database for toxic chemical identification
+- ** Allergen Detection**: Identifies common allergens and provides personalized alerts
+- ** Risk Assessment**: Comprehensive health risk scoring with actionable recommendations
+- ** Analytics Dashboard**: Track your product analysis history and risk trends
+- ** Web Interface**: Beautiful, user-friendly Streamlit interface
 
-## 🛠️ Technology Stack
+## Technology Stack
 
 - **Computer Vision**: Google Cloud Vision API
 - **Data Sources**: OpenFoodFacts API, EWG Database
@@ -21,7 +21,7 @@ A comprehensive Python application that analyzes food and personal care product 
 - **Visualization**: Plotly, Matplotlib
 - **Image Processing**: OpenCV, Pillow
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 
@@ -74,7 +74,7 @@ A comprehensive Python application that analyzes food and personal care product 
 2. **Open your browser**
    - The app will automatically open at `http://localhost:8501`
 
-## 🏃‍♂️ How to Run It
+##  How to Run It
 
 ### Quick Start (5 minutes)
 
@@ -108,33 +108,42 @@ A comprehensive Python application that analyzes food and personal care product 
 ### Demo Mode
 The app includes a demo mode that works without API credentials, allowing you to explore features with sample data.
 
-## 📸 Screenshots
+## Screenshots
 
 ### Main Dashboard
-![Main Dashboard](screenshots/main-dashboard.png)
+<img width="468" alt="image" src="https://github.com/user-attachments/assets/fb507450-5e9a-42b9-8336-98e1d2b77819" />
+
 *Modern dark-themed dashboard with animated background and glassmorphism effects. Features product upload area and real-time analysis capabilities.*
 
 ### Product Analysis Interface
-![Product Analysis](screenshots/product-analysis.png)
+
+<img width="468" alt="image" src="https://github.com/user-attachments/assets/e9dead88-ce50-4d8b-82ae-64228fea2aca" />
 *Clean interface showing product image upload area with drag-and-drop functionality. Sidebar contains personal preferences and allergen settings.*
 
 ### Risk Analysis Results
-![Risk Analysis](screenshots/risk-analysis.png)
+
+<img width="468" alt="image" src="https://github.com/user-attachments/assets/7fc6d021-7773-4388-aebe-f7b39b537a68" />
 *Comprehensive risk assessment display with color-coded alerts, detailed ingredient breakdown, and personalized health recommendations.*
 
 ### Ingredient Details View
-![Ingredient Details](screenshots/ingredient-details.png)
+
+<img width="468" alt="image" src="https://github.com/user-attachments/assets/e22d1702-d185-46bd-8e72-133aa5ede2a7" />
 *Detailed ingredient analysis showing individual risk scores, allergen information, and EWG safety ratings with explanatory descriptions.*
 
 ### Personal Preferences Sidebar
-![Personal Preferences](screenshots/sidebar-preferences.png)
+<img width="245" alt="image" src="https://github.com/user-attachments/assets/a7e78ca0-8264-40de-ae7f-e99bae77dffa" />
+<img width="247" alt="image" src="https://github.com/user-attachments/assets/e8c50fd2-c15c-4b44-bedb-daa5f7d4dbba" />
+<img width="468" alt="image" src="https://github.com/user-attachments/assets/8be830ca-3f59-4264-b6e2-2f10debdc2f5" />
+
 *Customizable sidebar with allergen selection, risk sensitivity settings, and product category preferences for personalized analysis.*
 
-### Demo Mode Interface
-![Demo Mode](screenshots/demo-mode.png)
-*Demo mode banner with sample product analysis, allowing users to explore features without API credentials or image upload.*
+### About
 
-## 📸 How to Use
+<img width="468" alt="image" src="https://github.com/user-attachments/assets/bc32eb54-339e-4452-b4c3-72a8e52bf656" />
+
+
+
+## How to Use
 
 1. **Upload a Product Image**
    - Click "Upload a product image"
@@ -154,7 +163,7 @@ The app includes a demo mode that works without API credentials, allowing you to
    - Review detailed ingredient analysis
    - Read personalized recommendations
 
-## 🔧 Configuration
+## Configuration
 
 ### Environment Variables
 
@@ -177,7 +186,7 @@ DEBUG=True
 - **Chemical Database**: Update `src/services/ewg_service.py` to add more chemicals
 - **Allergen Lists**: Customize allergen detection in `config.py`
 
-## 📊 Understanding Risk Levels
+## Understanding Risk Levels
 
 The app uses a 10-point risk scoring system:
 
@@ -192,7 +201,7 @@ The app uses a 10-point risk scoring system:
 - **Personal Care**: Cosmetics, skincare, hygiene products
 - **Household Items**: Cleaning products, detergents
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 ingredient-insight-app/
@@ -211,14 +220,14 @@ ingredient-insight-app/
 └── README.md                        # This file
 ```
 
-## 🔒 Privacy & Security
+## Privacy & Security
 
 - **Image Processing**: Images are processed locally and not stored permanently
 - **Personal Data**: Allergen preferences are stored only in your browser session
 - **API Calls**: Only ingredient text is sent to external APIs, not images
 - **Data Encryption**: All API communications use HTTPS
 
-## 🤝 Contributing
+## Contributing
 
 We welcome contributions! Please follow these steps:
 
@@ -228,7 +237,7 @@ We welcome contributions! Please follow these steps:
 4. Push to the branch (`git push origin feature/amazing-feature`)
 5. Open a Pull Request
 
-## 📋 Development Setup
+## Development Setup
 
 For development:
 
@@ -247,13 +256,13 @@ black src/
 mypy src/
 ```
 
-## 🐛 Known Issues
+## Known Issues
 
 - OCR accuracy depends on image quality
 - Some ingredients may not be in the EWG database
 - Rate limiting may affect batch processing
 
-## 🚀 Future Enhancements
+## Future Enhancements
 
 - [ ] Barcode scanning for direct product lookup
 - [ ] Mobile app version
@@ -263,17 +272,13 @@ mypy src/
 - [ ] Batch processing for multiple images
 - [ ] Integration with more health databases
 
-## 📞 Support
+## Support
 
 - **Issues**: [GitHub Issues](https://github.com/yourusername/ingredient-insight-app/issues)
 - **Discussions**: [GitHub Discussions](https://github.com/yourusername/ingredient-insight-app/discussions)
 - **Email**: support@ingredient-insight.com
 
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - **Google Cloud Vision AI** for image processing capabilities
 - **OpenFoodFacts** for comprehensive food product database
@@ -281,11 +286,11 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - **Streamlit** for the amazing web framework
 - **Open Source Community** for various libraries and tools
 
-## ⚠️ Disclaimer
+## Disclaimer
 
 This application provides educational information only and should not replace professional medical advice. Always consult with healthcare providers for specific health concerns and before making significant dietary or product usage changes.
 
-## 📊 Statistics
+## Statistics
 
 - **Supported Ingredients**: 50,000+ from OpenFoodFacts database
 - **Chemical Database**: 1,000+ toxic chemicals from EWG
@@ -294,6 +299,4 @@ This application provides educational information only and should not replace pr
 
 ---
 
-**Made with ❤️ by [Your Name]**
-
-If you find this project helpful, please consider giving it a ⭐ on GitHub! 
+**Made by Sourabh Chauhan **
