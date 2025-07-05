@@ -118,16 +118,19 @@ The app includes a demo mode that works without API credentials, allowing you to
 ### Product Analysis Interface
 
 <img width="468" alt="image" src="https://github.com/user-attachments/assets/e9dead88-ce50-4d8b-82ae-64228fea2aca" />
+
 *Clean interface showing product image upload area with drag-and-drop functionality. Sidebar contains personal preferences and allergen settings.*
 
 ### Risk Analysis Results
 
 <img width="468" alt="image" src="https://github.com/user-attachments/assets/7fc6d021-7773-4388-aebe-f7b39b537a68" />
+
 *Comprehensive risk assessment display with color-coded alerts, detailed ingredient breakdown, and personalized health recommendations.*
 
 ### Ingredient Details View
 
 <img width="468" alt="image" src="https://github.com/user-attachments/assets/e22d1702-d185-46bd-8e72-133aa5ede2a7" />
+
 *Detailed ingredient analysis showing individual risk scores, allergen information, and EWG safety ratings with explanatory descriptions.*
 
 ### Personal Preferences Sidebar
